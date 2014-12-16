@@ -11,6 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This plugin eases the use of Woomio for WordPress users. 
 With Woomio, anyone can post their purchases - and get a revenue from it.
 
+= Any bugs or have questions about the plugin =
+
+Don’t be hesitated to email us by developer@woomio.com
+
 == Installation ==
 
 1. Upload `woomio.php` to the `/wp-content/plugins/woomio` directory
