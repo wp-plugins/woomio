@@ -32,13 +32,16 @@ Because your post need to be approved by woomio.com. After approval,your will ge
 
 
 == Screenshots ==
+screenshot-1.png 
+1 Connect to Woomio
 
-Connect-to-Woomio.png
+screenshot-2.png 
+2 After Connecting 
 
-After-Connecting.png 
+screenshot-3.png 
+3 New Post
 
-New-Post.png
-
-Post-to-Woomio.png
+screenshot-4.png 
+4 Post to woomio
 
 == Changelog ==
