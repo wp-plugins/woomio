@@ -19,7 +19,7 @@ if (!defined('ABSPATH') || !function_exists('is_admin'))
 	exit();
 }
 
-//delete_option('woomio_blogger_option_name');
+
 
 if(!class_exists("Woomio_Blogger"))
 {
