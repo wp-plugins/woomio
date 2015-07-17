@@ -1,7 +1,6 @@
 <?php
 
 /*
-
 Plugin Name: Woomio
 
 Plugin URI: https://www.woomio.com/en/
@@ -11,7 +10,6 @@ Description: This plugin eases the use of Woomio for WordPress users. With Woomi
 Author: The Woomio Team
 
 Version: 1.0
-
 */
 
 if (!defined('ABSPATH') || !function_exists('is_admin'))
@@ -20,6 +18,8 @@ if (!defined('ABSPATH') || !function_exists('is_admin'))
 	header('HTTP/1.1 403 Forbidden');
 	exit();
 }
+
+//delete_option('woomio_blogger_option_name');
 
 if(!class_exists("Woomio_Blogger"))
 {
@@ -70,7 +70,12 @@ function woomio_convert_link_js()
 function woomio_convertlink_check()
 {
 	$data = get_option("woomio_blogger_option_name");
-	return $data["woomio_convertlink_checkbox"]=="on" ? true : false;
+	if(isset($data["woomio_convertlink_checkbox"]))
+	{
+		return $data["woomio_convertlink_checkbox"]=="on" ? true : false;
+	}else
+		return false; 
+	
 }
 
 ?>

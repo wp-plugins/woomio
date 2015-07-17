@@ -34,12 +34,15 @@ class WoomioBloggerSettingsPage
     //helper functions 
     public function woomio_loginform_display()
     {
-        return ctype_digit(get_option("woomio_blogger_option_name")["woomio_blogger_id"]) ? "display:none;":""; 
+        $data = get_option("woomio_blogger_option_name");
+
+        return ctype_digit($data["woomio_blogger_id"]) ? "display:none;":""; 
     }
 
     public function woomio_blogger_post_form_display()
     {
-        return ctype_digit(get_option("woomio_blogger_option_name")["woomio_blogger_id"]) ? "":"display:none;"; 
+        $data = get_option("woomio_blogger_option_name");
+        return ctype_digit($data["woomio_blogger_id"]) ? "":"display:none;"; 
     }
 
     /**
