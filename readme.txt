@@ -1,4 +1,4 @@
-=== Woomio For Bloggers===
+﻿=== Woomio for Bloggers===
 Contributors: Woomio Team
 Tags: woomio,social media,share buys
 Requires at least: 3.0.1
