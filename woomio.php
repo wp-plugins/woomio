@@ -9,7 +9,7 @@ Description: This plugin eases the use of Woomio for WordPress users. With Woomi
 
 Author: The Woomio Team
 
-Version: 1.0
+Version: 1.0.1
 */
 
 if (!defined('ABSPATH') || !function_exists('is_admin'))
