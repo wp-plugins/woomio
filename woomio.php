@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: Woomio
+Plugin Name: Woomio for Bloggers
 
 Plugin URI: https://www.woomio.com/en/
 

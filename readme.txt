@@ -1,4 +1,4 @@
-﻿=== Plugin Name ===
+﻿=== Woomio for Bloggers ===
 Contributors: (this should be a list of wordpress.org userid's)
 Tags:
 Requires at least: 3.0.1
