@@ -64,7 +64,7 @@ function woomio_statis_js()
 function woomio_convert_link_js()
 {
  	$data = get_option("woomio_blogger_option_name");
-	echo '<script src="https://www.woomio.com/assets/js/tools/lnk.js" id="wlnk" data-u='.$data["woomio_blogger_id"].'></script>';
+	echo '<script src="http://test.woomio.com/assets/js/tools/lnk.js" id="wlnk" data-u='.$data["woomio_blogger_id"].'></script>';
 }
 
 function woomio_convertlink_check()
