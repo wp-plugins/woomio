@@ -11,6 +11,7 @@ This plugin eases the use of Woomio for WordPress users by converting all links 
 
 == Description ==
 If you have a WordPress blog, our WordPress plugin is the simplest way to start collecting statistics.
+
 * Learn how many visitors you have, and how they found your blog 
 * See how many readers click on your Woomio links 
 * Keep track of the sales made from your Woomio links 
@@ -20,6 +21,7 @@ If you have a WordPress blog, our WordPress plugin is the simplest way to start 
 Learn more on [Woomio.com](https://www.woomio.com).
 
 == Installation ==
+
 1. Log on to your Wordpress Dashboard. In the left menu, go to Plugins > Add New. Search for "Woomio" in the search box in the upper right corner.
 2. Choose "Woomio for Bloggers" and press "Install Now".
 3. You will get a message that says "Successfully installed the plugin Woomio". Click on "Activate Plugin".
