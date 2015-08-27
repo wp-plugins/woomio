@@ -9,7 +9,7 @@ Description: This plugin eases the use of Woomio for WordPress users. With Woomi
 
 Author: The Woomio Team
 
-Version: 1.0.1
+Version: 1.0.3
 */
 
 if (!defined('ABSPATH') || !function_exists('is_admin'))
@@ -64,7 +64,7 @@ function woomio_statis_js()
 function woomio_convert_link_js()
 {
  	$data = get_option("woomio_blogger_option_name");
-	echo '<script src="http://test.woomio.com/assets/js/tools/lnk.js" id="wlnk" data-u='.$data["woomio_blogger_id"].'></script>';
+	echo '<script src="https://www.woomio.com/assets/js/tools/lnk.js" id="wlnk" data-u='.$data["woomio_blogger_id"].'></script>';
 }
 
 function woomio_convertlink_check()
@@ -73,8 +73,11 @@ function woomio_convertlink_check()
 	if(isset($data["woomio_convertlink_checkbox"]))
 	{
 		return $data["woomio_convertlink_checkbox"]=="on" ? true : false;
-	}else
+	}
+	else
+	{
 		return false; 
+	}
 	
 }
 
