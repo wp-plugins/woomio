@@ -7,15 +7,15 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin eases the use of Woomio for WordPress users by converting all links to affiliate links automatically. Woomio also provides a simple overview of your blogs sales and reader statistics.
+This plugin eases the use of Woomio for WordPress users by converting all links to affiliate links automatically.
 
 == Description ==
 If you have a WordPress blog, our WordPress plugin is the simplest way to start collecting statistics.
-* Learn how many visitors you have, and how they found your blog
-* See how many readers click on your Woomio links
-* Keep track of the sales made from your Woomio links
-* Learn which of your blog posts are most popular
-* Rank your blog posts according to sales and link clicks
+* Learn how many visitors you have, and how they found your blog 
+* See how many readers click on your Woomio links 
+* Keep track of the sales made from your Woomio links 
+* Learn which of your blog posts are most popular 
+* Rank your blog posts according to sales and link clicks 
 
 Learn more on [Woomio.com](https://www.woomio.com).
 
@@ -27,10 +27,6 @@ Learn more on [Woomio.com](https://www.woomio.com).
 5. Now, in the left menu, go to Settings > Woomio. Click the "Connect to Woomio" button.
 6. Check the box "Enable auto affiliate link conversion", if you woud like to convert all your existing and future links into Woomio’s affiliate links. If the link is already affiliated to a program, it will continue to be and it will also be affiliated to Woomio. Then click on "Save Changes".
 7. You should get a message that says: "Settings saved" and all should be good!
-
-== Frequently Asked Questions ==
-
-== Screenshots ==
 
 == Changelog ==
 
