@@ -2,7 +2,7 @@
 Contributors: (this should be a list of wordpress.org userid's)
 Tags:
 Requires at least: 3.0.1
-Tested up to: 4.3.0
+Tested up to: 4.3.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -31,6 +31,9 @@ Learn more on [Woomio.com](https://www.woomio.com).
 7. You should get a message that says: "Settings saved" and all should be good!
 
 == Changelog ==
+
+= 1.0.4 =
+* Solved conflict with Woomio retailer plugin
 
 = 1.0.3 =
 * Fixed minor bug
